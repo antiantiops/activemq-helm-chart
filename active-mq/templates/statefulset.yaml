@@ -27,6 +27,7 @@ spec:
         {{- toYaml . | nindent 8 }}
         {{- end }}
     spec:
+      serviceAccountName: {{ include "active-mq.serviceAccountName" . }}
       {{- with .Values.podSecurityContext }}
       securityContext:
         {{- toYaml . | nindent 8 }}
@@ -158,7 +159,10 @@ spec:
               value: {{ $value | quote }}
             {{- end }}
             {{- end }} 
-          
+          envFrom:
+            {{- with .Values.extraEnvFrom }}
+            {{- tpl . $ | nindent 12 }}
+            {{- end }}
           volumeMounts:
             - mountPath: /var/lib/artemis-instance/etc-override/broker.xml
               name: artemis-config-volume
@@ -170,7 +174,9 @@ spec:
           {{- with .Values.volumeMounts }}
             {{- toYaml . | nindent 12 }}
           {{- end }}
-        
+        {{- with .Values.extraContainers }}
+        {{- tpl . $ | nindent 8 }}
+        {{- end }}
         {{- if .Values.monitoring.jmx.enabled }}
         - name: jmx-exporter
           image: {{ .Values.monitoring.jmx.exporter.image | default "bitnami/jmx-exporter:1.1.0" }}

@@ -82,6 +82,8 @@ helm delete my-activemq
 | `nodeSelector` | Node labels for pod assignment | `{}` |
 | `tolerations` | Tolerations for pod assignment | `[]` |
 | `affinity` | Affinity for pod assignment | `{}` |
+| `extraEnvFrom` | Additional environment variables mapped from Secret or ConfigMap | `""` |
+| `extraContainers` | Additional sidecar containers, e.g. for a database proxy, such as Google's cloudsql-proxy | `""` |
 
 ### Service Settings
 

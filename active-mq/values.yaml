@@ -76,6 +76,18 @@ nodeSelector: {}
 tolerations: []
 affinity: {}
 
+# Additional environment variables mapped from Secret or ConfigMap
+extraEnvFrom: ""
+
+# Additional sidecar containers as a YAML string (e.g., for a database proxy like Google's cloudsql-proxy).
+# Example:
+#   extraContainers: |
+#     - name: cloud-sql-proxy
+#       image: gcr.io/cloud-sql-connectors/cloud-sql-proxy:2.18
+#       args:
+#         - "project:region:instance"
+extraContainers: ""
+
 #######################
 # Service Settings   #
 #######################
