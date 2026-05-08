@@ -332,7 +332,7 @@ kubectl get pods -l app=my-activemq
 
 ```plaintext
 helm package ./active-mq --destination .
-helm repo index ./ --url  https://underndog.github.io/activemq-helm-chart
+helm repo index ./ --url  https://antantiops.github.io/activemq-helm-chart
 ```
 
 ## License
