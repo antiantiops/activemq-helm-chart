@@ -21,7 +21,7 @@ version: 1.8.1
 # follow Semantic Versioning. They should reflect the version the application is using.
 # It is recommended to use it with quotes.
 appVersion: "2.44.0"
-icon: https://raw.githubusercontent.com/underndog/activemq-helm-chart/master/docs/img/logo.png
+icon: https://raw.githubusercontent.com/antiantiops/activemq-helm-chart/master/docs/img/logo.png
 home: https://nimtechnology.com/
 keywords:
 - active-mq

@@ -3,11 +3,11 @@ entries:
   active-mq:
   - apiVersion: v2
     appVersion: 2.44.0
-    created: "2026-05-08T07:43:04.612123075Z"
+    created: "2026-05-08T08:34:26.546341739Z"
     description: A Helm chart for Kubernetes
-    digest: 4405c0cdf563d6b72b868d2d62a6a4356b3640fb6f4f684759a84063818934f8
+    digest: cb10e42fd59a7f82063b14616ceefaa189343bba9360d3f4ba38f7770cc4d9be
     home: https://nimtechnology.com/
-    icon: https://raw.githubusercontent.com/underndog/activemq-helm-chart/master/docs/img/logo.png
+    icon: https://raw.githubusercontent.com/antiantiops/activemq-helm-chart/master/docs/img/logo.png
     keywords:
     - active-mq
     - activemq
@@ -19,11 +19,11 @@ entries:
     - https://github.com/antiantiops/activemq-helm-chart
     type: application
     urls:
-    - https://raw.githubusercontent.com/antiantiops/activemq-helm-chart/master/active-mq-1.8.1.tgz
+    - https://antantiops.github.io/activemq-helm-chart/active-mq-1.8.1.tgz
     version: 1.8.1
   - apiVersion: v2
     appVersion: 2.43.0
-    created: "2026-05-08T07:43:04.611327561Z"
+    created: "2026-05-08T08:34:26.544684635Z"
     description: A Helm chart for Kubernetes
     digest: 60c7d890b41a9fd816ec31599ea7437c52dda01c6d036f99a916dace1b03039c
     home: https://nimtechnology.com/
@@ -39,11 +39,11 @@ entries:
     - https://github.com/underndog/activemq-helm-chart
     type: application
     urls:
-    - https://raw.githubusercontent.com/antiantiops/activemq-helm-chart/master/active-mq-1.8.0.tgz
+    - https://antantiops.github.io/activemq-helm-chart/active-mq-1.8.0.tgz
     version: 1.8.0
   - apiVersion: v2
     appVersion: 2.39.0
-    created: "2026-05-08T07:43:04.610543143Z"
+    created: "2026-05-08T08:34:26.543371377Z"
     description: A Helm chart for Kubernetes
     digest: 901092c0358a6f3392c82fbd982628ac0de7b409e2711399d6d94da495c2c513
     home: https://nimtechnology.com/
@@ -59,11 +59,11 @@ entries:
     - https://github.com/underndog/activemq-helm-chart
     type: application
     urls:
-    - https://raw.githubusercontent.com/antiantiops/activemq-helm-chart/master/active-mq-1.7.0.tgz
+    - https://antantiops.github.io/activemq-helm-chart/active-mq-1.7.0.tgz
     version: 1.7.0
   - apiVersion: v2
     appVersion: 2.39.0
-    created: "2026-05-08T07:43:04.609038092Z"
+    created: "2026-05-08T08:34:26.542113474Z"
     description: A Helm chart for Kubernetes
     digest: 982067e0e2eecc0e1c65e3a60ff6c723abb93932e888ce267ee8986d388a4abd
     home: https://nimtechnology.com/
@@ -79,11 +79,11 @@ entries:
     - https://github.com/underndog/activemq-helm-chart
     type: application
     urls:
-    - https://raw.githubusercontent.com/antiantiops/activemq-helm-chart/master/active-mq-1.6.0.tgz
+    - https://antantiops.github.io/activemq-helm-chart/active-mq-1.6.0.tgz
     version: 1.6.0
   - apiVersion: v2
     appVersion: 2.39.0
-    created: "2026-05-08T07:43:04.608306383Z"
+    created: "2026-05-08T08:34:26.540664253Z"
     description: A Helm chart for Kubernetes
     digest: f15216f24341e902628e043bc0e1924e8371c3d3f10752a95f1ccc0da7065fac
     home: https://nimtechnology.com/
@@ -99,11 +99,11 @@ entries:
     - https://github.com/underndog/activemq-helm-chart
     type: application
     urls:
-    - https://raw.githubusercontent.com/antiantiops/activemq-helm-chart/master/active-mq-1.5.0.tgz
+    - https://antantiops.github.io/activemq-helm-chart/active-mq-1.5.0.tgz
     version: 1.5.0
   - apiVersion: v2
     appVersion: 2.39.0
-    created: "2026-05-08T07:43:04.607547012Z"
+    created: "2026-05-08T08:34:26.539252322Z"
     description: A Helm chart for Kubernetes
     digest: c13d7b4668ed085f4d7743b779231e0d96a4a554a6973837581998138bd861cc
     home: https://nimtechnology.com/
@@ -119,11 +119,11 @@ entries:
     - https://github.com/underndog/activemq-helm-chart
     type: application
     urls:
-    - https://raw.githubusercontent.com/antiantiops/activemq-helm-chart/master/active-mq-1.4.0.tgz
+    - https://antantiops.github.io/activemq-helm-chart/active-mq-1.4.0.tgz
     version: 1.4.0
   - apiVersion: v2
     appVersion: 2.39.0
-    created: "2026-05-08T07:43:04.606808523Z"
+    created: "2026-05-08T08:34:26.536796964Z"
     description: A Helm chart for Kubernetes
     digest: 18ab1050d4d4341d490a7e2a6a14c60e6a4a1c5e67611be1e44e644358296d32
     home: https://nimtechnology.com/
@@ -139,11 +139,11 @@ entries:
     - https://github.com/underndog/activemq-helm-chart
     type: application
     urls:
-    - https://raw.githubusercontent.com/antiantiops/activemq-helm-chart/master/active-mq-1.3.2.tgz
+    - https://antantiops.github.io/activemq-helm-chart/active-mq-1.3.2.tgz
     version: 1.3.2
   - apiVersion: v2
     appVersion: 2.39.0
-    created: "2026-05-08T07:43:04.606041732Z"
+    created: "2026-05-08T08:34:26.535009488Z"
     description: A Helm chart for Kubernetes
     digest: 6d17f606f55d623b34f93b2dfc44d32a7e7a0913408cd738dbb2f2fbb396618f
     home: https://nimtechnology.com/
@@ -159,11 +159,11 @@ entries:
     - https://github.com/underndog/activemq-helm-chart
     type: application
     urls:
-    - https://raw.githubusercontent.com/antiantiops/activemq-helm-chart/master/active-mq-1.3.1.tgz
+    - https://antantiops.github.io/activemq-helm-chart/active-mq-1.3.1.tgz
     version: 1.3.1
   - apiVersion: v2
     appVersion: 2.39.0
-    created: "2026-05-08T07:43:04.605294249Z"
+    created: "2026-05-08T08:34:26.533414744Z"
     description: A Helm chart for Kubernetes
     digest: be4d58c1c15885a280c193a7931078f009243358caa3c8430fee145ee7014f7d
     home: https://nimtechnology.com/
@@ -179,11 +179,11 @@ entries:
     - https://github.com/underndog/activemq-helm-chart
     type: application
     urls:
-    - https://raw.githubusercontent.com/antiantiops/activemq-helm-chart/master/active-mq-1.3.0.tgz
+    - https://antantiops.github.io/activemq-helm-chart/active-mq-1.3.0.tgz
     version: 1.3.0
   - apiVersion: v2
     appVersion: 2.39.0
-    created: "2026-05-08T07:43:04.604585343Z"
+    created: "2026-05-08T08:34:26.531995836Z"
     description: A Helm chart for Kubernetes
     digest: 251454afa378c9e9e06c6c88982cb50d242fced2d2d12c125e740b38e0b4bac4
     home: https://nimtechnology.com/
@@ -199,11 +199,11 @@ entries:
     - https://github.com/underndog/activemq-helm-chart
     type: application
     urls:
-    - https://raw.githubusercontent.com/antiantiops/activemq-helm-chart/master/active-mq-1.2.2.tgz
+    - https://antantiops.github.io/activemq-helm-chart/active-mq-1.2.2.tgz
     version: 1.2.2
   - apiVersion: v2
     appVersion: 2.39.0
-    created: "2026-05-08T07:43:04.603912942Z"
+    created: "2026-05-08T08:34:26.530970542Z"
     description: A Helm chart for Kubernetes
     digest: 3b91613515d8ddf1836d4a064a49a08927a20efb9b07e751e7b9b9cbeb1b2299
     home: https://nimtechnology.com/
@@ -219,11 +219,11 @@ entries:
     - https://github.com/underndog/activemq-helm-chart
     type: application
     urls:
-    - https://raw.githubusercontent.com/antiantiops/activemq-helm-chart/master/active-mq-1.2.1.tgz
+    - https://antantiops.github.io/activemq-helm-chart/active-mq-1.2.1.tgz
     version: 1.2.1
   - apiVersion: v2
     appVersion: 2.39.0
-    created: "2026-05-08T07:43:04.603206591Z"
+    created: "2026-05-08T08:34:26.529864541Z"
     description: A Helm chart for Kubernetes
     digest: 9197baf0683aba261078cb338fb363c6d259719dd71b366359af7c142e0e9172
     home: https://nimtechnology.com/
@@ -239,26 +239,26 @@ entries:
     - https://github.com/underndog/activemq-helm-chart
     type: application
     urls:
-    - https://raw.githubusercontent.com/antiantiops/activemq-helm-chart/master/active-mq-1.2.0.tgz
+    - https://antantiops.github.io/activemq-helm-chart/active-mq-1.2.0.tgz
     version: 1.2.0
   - apiVersion: v2
     appVersion: 2.39.0
-    created: "2026-05-08T07:43:04.602402203Z"
+    created: "2026-05-08T08:34:26.528732996Z"
     description: A Helm chart for Kubernetes
     digest: 6113f16a2bb5aa6c4baa18af7cb04f55fb1ec23807319992a5f310e76bb61cad
     name: active-mq
     type: application
     urls:
-    - https://raw.githubusercontent.com/antiantiops/activemq-helm-chart/master/active-mq-1.1.0.tgz
+    - https://antantiops.github.io/activemq-helm-chart/active-mq-1.1.0.tgz
     version: 1.1.0
   - apiVersion: v2
     appVersion: 2.39.0
-    created: "2026-05-08T07:43:04.600663034Z"
+    created: "2026-05-08T08:34:26.527925151Z"
     description: A Helm chart for Kubernetes
     digest: 2df4b20cc616ca7478e9c9c963d86ab7ebd8efc7e4bac346632f2d8cabcff22d
     name: active-mq
     type: application
     urls:
-    - https://raw.githubusercontent.com/antiantiops/activemq-helm-chart/master/active-mq-1.0.0.tgz
+    - https://antantiops.github.io/activemq-helm-chart/active-mq-1.0.0.tgz
     version: 1.0.0
-generated: "2026-05-08T07:43:04.599728653Z"
+generated: "2026-05-08T08:34:26.526630692Z"
