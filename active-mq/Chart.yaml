@@ -33,4 +33,4 @@ maintainers:
 - email: dc.nim94@gmail.com
   name: Nim
 sources:
-- https://github.com/underndog/activemq-helm-chart
+- https://github.com/antiantiops/activemq-helm-chart
