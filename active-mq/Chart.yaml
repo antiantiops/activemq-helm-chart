@@ -24,7 +24,7 @@ version: 1.8.0
 appVersion: "2.43.0"
 
 
-icon: https://raw.githubusercontent.com/underndog/activemq-helm-chart/master/docs/img/logo.png
+icon: https://raw.githubusercontent.com/antiantiops/activemq-helm-chart/master/docs/img/logo.png
 home: https://nimtechnology.com/
 keywords:
 - active-mq
@@ -33,4 +33,4 @@ maintainers:
 - email: dc.nim94@gmail.com
   name: Nim
 sources:
-- https://github.com/underndog/activemq-helm-chart
+- https://github.com/antiantiops/activemq-helm-chart
