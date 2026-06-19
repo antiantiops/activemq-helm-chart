@@ -198,7 +198,7 @@ monitoring:
     username: <ARTEMIS_USERNAME> #Placeholder for the username, will be replaced to use $ARTEMIS_USER
     password: <ARTEMIS_PASSWORD> #Placeholder for the password, will be replaced to use $ARTEMIS_PASSWORD
     exporter:
-      image: "bitnami/jmx-exporter:1.3.0"
+      image: "bitnami/jmx-exporter@sha256:9cc4a173c69ec2619e1a40e5026193352abcf82c82486cd3d52529a8f14dfa52"
       pullPolicy: IfNotPresent
       hostPort: "127.0.0.1:1098"
       lowercaseOutputName: true

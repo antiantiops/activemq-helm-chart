@@ -135,7 +135,7 @@ envVars:
 | --- | --- | --- |
 | `monitoring.enabled` | Enable monitoring components | `true` |
 | `monitoring.jmx.enabled` | Enable JMX monitoring | `true` |
-| `monitoring.jmx.exporter.image` | JMX exporter image | `bitnami/jmx-exporter:1.1.0` |
+| `monitoring.jmx.exporter.image` | JMX exporter image | `bitnami/jmx-exporter@sha256:9cc4a173c69ec2619e1a40e5026193352abcf82c82486cd3d52529a8f14dfa52` |
 | `monitoring.jmx.exporter.pullPolicy` | JMX exporter image pull policy | `IfNotPresent` |
 | `monitoring.jmx.exporter.hostPort` | JMX host and port | `127.0.0.1:1098` |
 | `monitoring.jmx.exporter.lowercaseOutputName` | Convert output metric names to lowercase | `true` |

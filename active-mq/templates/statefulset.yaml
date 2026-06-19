@@ -173,7 +173,7 @@ spec:
         
         {{- if .Values.monitoring.jmx.enabled }}
         - name: jmx-exporter
-          image: {{ .Values.monitoring.jmx.exporter.image | default "bitnami/jmx-exporter:1.1.0" }}
+          image: {{ .Values.monitoring.jmx.exporter.image | default "bitnami/jmx-exporter@sha256:9cc4a173c69ec2619e1a40e5026193352abcf82c82486cd3d52529a8f14dfa52" }}
           imagePullPolicy: {{ .Values.monitoring.jmx.exporter.pullPolicy | default "IfNotPresent" }}
           command:
             - /bin/sh
